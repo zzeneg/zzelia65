@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MX)(type Legacy)(uri "C:/Users/evilk/Documents/Projects/Personal/zzelia65/kicad/lib/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri C:/Users/evilk/Documents/Projects/Personal/zzelia65/kicad/lib/promicro_library/promicro.lib)(options "")(descr ""))
+)
