@@ -464,10 +464,10 @@ $EndComp
 Wire Wire Line
 	1100 3250 1100 3300
 $Comp
-L Device:D_Small D_LetA1
+L Device:D_Small D_A1
 U 1 1 61B1D536
 P 1750 3400
-F 0 "D_LetA1" V 1796 3330 50  0000 R CNN
+F 0 "D_A1" V 1796 3330 50  0000 R CNN
 F 1 "D_Small" V 1705 3330 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 1750 3400 50  0001 C CNN
 F 3 "~" V 1750 3400 50  0001 C CNN
@@ -2280,4 +2280,103 @@ F 3 "" H 1900 6150 60  0000 C CNN
 	1    1800 7200
 	1    0    0    -1  
 $EndComp
+Text GLabel 1100 6450 0    50   Input ~ 0
+Row_0
+Text GLabel 1100 6550 0    50   Input ~ 0
+Row_1
+$Comp
+L power:GND #PWR0101
+U 1 1 61A97F6B
+P 600 6750
+F 0 "#PWR0101" H 600 6500 50  0001 C CNN
+F 1 "GND" H 605 6577 50  0000 C CNN
+F 2 "" H 600 6750 50  0001 C CNN
+F 3 "" H 600 6750 50  0001 C CNN
+	1    600  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61A997C2
+P 2950 6650
+F 0 "#PWR0102" H 2950 6400 50  0001 C CNN
+F 1 "GND" H 2955 6477 50  0000 C CNN
+F 2 "" H 2950 6650 50  0001 C CNN
+F 3 "" H 2950 6650 50  0001 C CNN
+	1    2950 6650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 6450
+$Comp
+L Switch:SW_Push SW_Reset1
+U 1 1 61AC615F
+P 4500 6550
+F 0 "SW_Reset1" H 4500 6835 50  0000 C CNN
+F 1 "SW_Push" H 4500 6744 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4500 6750 50  0001 C CNN
+F 3 "~" H 4500 6750 50  0001 C CNN
+	1    4500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61AC7D88
+P 4100 6650
+F 0 "#PWR0103" H 4100 6400 50  0001 C CNN
+F 1 "GND" H 4105 6477 50  0000 C CNN
+F 2 "" H 4100 6650 50  0001 C CNN
+F 3 "" H 4100 6650 50  0001 C CNN
+	1    4100 6650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 6550 2    50   Input ~ 0
+RESET
+Text GLabel 1100 6850 0    50   Input ~ 0
+Row_2
+Text GLabel 1100 6950 0    50   Input ~ 0
+Row_3
+Text GLabel 1100 7050 0    50   Input ~ 0
+Row_4
+Text GLabel 1100 7150 0    50   Input ~ 0
+Row_5
+Text GLabel 1100 7250 0    50   Input ~ 0
+Row_6
+Text GLabel 1100 7350 0    50   Input ~ 0
+Row_7
+Text GLabel 1100 7450 0    50   Input ~ 0
+Row_8
+Text GLabel 1100 7550 0    50   Input ~ 0
+Row_9
+Text GLabel 2500 6650 2    50   Input ~ 0
+RESET
+NoConn ~ 2500 6750
+Text GLabel 2500 6850 2    50   Input ~ 0
+Col_0
+Text GLabel 2500 6950 2    50   Input ~ 0
+Col_1
+Text GLabel 2500 7050 2    50   Input ~ 0
+Col_2
+Text GLabel 2500 7150 2    50   Input ~ 0
+Col_3
+Text GLabel 2500 7250 2    50   Input ~ 0
+Col_4
+Text GLabel 2500 7350 2    50   Input ~ 0
+Col_5
+Text GLabel 2500 7450 2    50   Input ~ 0
+Col_6
+Wire Wire Line
+	2500 6550 2950 6550
+Wire Wire Line
+	2950 6550 2950 6650
+Wire Wire Line
+	600  6750 1100 6750
+Wire Wire Line
+	1100 6650 600  6650
+Wire Wire Line
+	600  6650 600  6750
+Connection ~ 600  6750
+Wire Wire Line
+	4300 6550 4100 6550
+Wire Wire Line
+	4100 6550 4100 6650
 $EndSCHEMATC
