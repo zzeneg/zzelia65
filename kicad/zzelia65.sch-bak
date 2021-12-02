@@ -2230,17 +2230,17 @@ RESET
 NoConn ~ 2500 6750
 Text GLabel 2500 6850 2    50   Input ~ 0
 Col_0
-Text GLabel 2500 6950 2    50   Input ~ 0
+Text GLabel 2500 7550 2    50   Input ~ 0
 Col_1
-Text GLabel 2500 7050 2    50   Input ~ 0
+Text GLabel 2500 7450 2    50   Input ~ 0
 Col_2
-Text GLabel 2500 7150 2    50   Input ~ 0
+Text GLabel 2500 7350 2    50   Input ~ 0
 Col_3
 Text GLabel 2500 7250 2    50   Input ~ 0
 Col_4
-Text GLabel 2500 7350 2    50   Input ~ 0
+Text GLabel 2500 7150 2    50   Input ~ 0
 Col_5
-Text GLabel 2500 7450 2    50   Input ~ 0
+Text GLabel 2500 7050 2    50   Input ~ 0
 Col_6
 Wire Wire Line
 	2500 6550 2950 6550
@@ -2376,6 +2376,6 @@ Wire Wire Line
 Wire Wire Line
 	10700 5050 10700 5800
 Connection ~ 1900 5050
-Text GLabel 2500 7550 2    50   Input ~ 0
+Text GLabel 2500 6950 2    50   Input ~ 0
 Col_7
 $EndSCHEMATC
