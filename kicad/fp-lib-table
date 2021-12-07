@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name MX)(type KiCad)(uri C:/Users/evilk/Documents/Projects/Personal/zzelia65/kicad/lib/MX_Only.pretty)(options "")(descr ""))
   (lib (name promicro)(type KiCad)(uri C:/Users/evilk/Documents/Projects/Personal/zzelia65/kicad/lib/promicro.pretty)(options "")(descr ""))
+  (lib (name zzelia65)(type KiCad)(uri C:/Users/evilk/Documents/Projects/Personal/zzelia65/kicad/lib/zzelia65)(options "")(descr ""))
 )
