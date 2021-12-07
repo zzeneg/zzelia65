@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 594)
     (zones 0)
     (modules 146)
@@ -4640,6 +4640,9 @@
       (net 1 "Net-(D_0-Pad2)"))
   )
 
+  (gr_text "github.com/zzeneg/zzelia65 v0.1" (at 179.35 133.3) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 42.8625 135.73125) (end 368.3 135.73125) (layer Edge.Cuts) (width 0.05) (tstamp 61A84C5C))
   (gr_line (start 40.48125 37.30625) (end 40.48125 133.35) (layer Edge.Cuts) (width 0.05) (tstamp 61A84C5B))
   (gr_line (start 368.3 34.925) (end 42.8625 34.925) (layer Edge.Cuts) (width 0.05) (tstamp 61A84C5A))

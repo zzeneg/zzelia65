@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 594)
     (zones 0)
     (modules 146)
@@ -11,8 +11,8 @@
 
   (page A3)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -4640,6 +4640,9 @@
       (net 1 "Net-(D_0-Pad2)"))
   )
 
+  (gr_text JLCJLCJLCJLC (at 179.35 36.55) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text "github.com/zzeneg/zzelia65 v0.1" (at 179.35 133.3) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -5247,7 +5250,7 @@
   (segment (start 214.46776 60.96) (end 211.861251 63.566509) (width 0.25) (layer B.Cu) (net 90))
   (segment (start 216.05875 60.96) (end 214.46776 60.96) (width 0.25) (layer B.Cu) (net 90))
 
-  (zone (net 88) (net_name GND) (layer F.Cu) (tstamp 61B05A92) (hatch edge 0.508)
+  (zone (net 88) (net_name GND) (layer F.Cu) (tstamp 61B05A9C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8680,7 +8683,7 @@
       )
     )
   )
-  (zone (net 88) (net_name GND) (layer B.Cu) (tstamp 61B05A8F) (hatch edge 0.508)
+  (zone (net 88) (net_name GND) (layer B.Cu) (tstamp 61B05A99) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
