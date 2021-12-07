@@ -2350,4 +2350,30 @@ Wire Wire Line
 Connection ~ 1900 5050
 Text GLabel 2500 6950 2    50   Input ~ 0
 Col_7
+$Comp
+L Switch:SW_Push Reset1
+U 1 1 61B0A3A6
+P 4000 6300
+F 0 "Reset1" H 4000 6585 50  0000 C CNN
+F 1 "RESET" H 4000 6494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4000 6500 50  0001 C CNN
+F 3 "~" H 4000 6500 50  0001 C CNN
+	1    4000 6300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 6300 2    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR0103
+U 1 1 61B0DF5D
+P 3800 6400
+F 0 "#PWR0103" H 3800 6150 50  0001 C CNN
+F 1 "GND" H 3805 6227 50  0000 C CNN
+F 2 "" H 3800 6400 50  0001 C CNN
+F 3 "" H 3800 6400 50  0001 C CNN
+	1    3800 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6300 3800 6400
 $EndSCHEMATC
